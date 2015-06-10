@@ -1,13 +1,13 @@
 var app = document.createElement("div");
 app.innerHTML = "Testing";
 app.style = "top: 10px; right: 10px; opacity: 0.1; background: red; width: 350px; position: fixed;";
-document.body.appendChild(app);
 app.addEventListener("mouseover",function(){
   this.style.opacity = "1";
 });
 app.addEventListener("mouseout",function(){
   this.style.opacity = "0.1";
 });
+document.body.appendChild(app);
 
 /*
 javascript:(function(){
