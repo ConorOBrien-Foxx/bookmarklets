@@ -1,9 +1,10 @@
-var app = document.createElement("div");
-app.innerHTML = "Testing";
-app.id = "ConorOBrienFoxxApp";
-var _my_style = document.createElement("STYLE");
-_my_style.type="text/css";
-_my_style.innerHTML = "#ConorOBrienFoxxApp{top: 10px; right: 10px; opacity: 0.1; background: red; width: 350px; position: fixed;}#ConorOBrienFoxxApp:hover{opacity:1}";
+var app        = document.createElement("div");
+app.innerHTML  = "Testing";
+app.id         = "ConorOBrienFoxxApp";
+var _my_style  = document.createElement("STYLE");
+_my_style.type = "text/css";
+_my_style.rel  = "STYLESHEET";
+_my_style.href = "https://raw.githubusercontent.com/ConorOBrien-Foxx/bookmarklets/gh-pages/one.css";
 document.getElementsByTagName('head')[0].appendChild(_my_style);
 document.body.appendChild(app);
 
