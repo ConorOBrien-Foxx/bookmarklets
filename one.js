@@ -1,5 +1,7 @@
 var app         = document.createElement("div");
-app.innerHTML   = "Testing";
+var inner       = document.createTextNode("Testing");
+app.appendChild(inner);
+//app.innerHTML = "Testing";
 app.id          = "ConorOBrienFoxxApp";
 app.style       = "top: 10px; right: 10px; position: fixed; z-index: 1000;background: red;color:white;";
 app.onmouseover = "this.style.opacity = 1;";
