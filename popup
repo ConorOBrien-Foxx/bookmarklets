@@ -1,0 +1,12 @@
+_$={};
+_$.a=document.body;
+_$.b="\"width:300px;height:150px;color:white;background:black;position:fixed;top:10px;left:50%;margin-left:-150px;z-index:100000000000000000000000;opacity:0.2;transition:all .2s;\"";
+_$.c="\"this.style.opacity=1\"";
+_$.d="\"this.style.opacity=0.2\"";
+_$.e="_$.app.outerHTML=\"\"";
+_$.f="\"cursor:pointer;float:right;border:none;background:rgb(150,20,20);color:black;font-family:Consolas;\"";
+_$.g="this.style.background=\"rgb(250,20,20)\"";
+_$.h="this.style.background=\"rgb(150,20,20)\"";
+_$.i="<button id=ConorOBrienFoxxAppButton style="+_$.f+" onclick="+_$.e+" onmouseover="+_$.g+" onmouseout="+_$.h+">X</button>";
+_$.a.innerHTML += "<div id=\"ConorOBrienFoxxApp\" onmouseover="+_$.c+" onmouseout="+_$.d+" style="+_$.b+">"+_$.i+"</div>";
+setTimeout(function(){_$.app=document.getElementById("ConorOBrienFoxxApp");},500);void(0);
