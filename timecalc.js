@@ -1,4 +1,4 @@
-Date.prototype.print = function(n = 0) {
+(function(){Date.prototype.print = function(n = 0) {
   var o = [];
   if(n >= -1) o.push(this.getMonth() + 1);
   if(n >= 0) o.push(this.getDate());
@@ -41,5 +41,10 @@ var html = `<div id="ConorOBrienFoxxDate" style="z-index:10000000;position:fixed
 			<option value="years" disabled>years</option>
 		</select> ago? <button onclick="process();" style="cursor:pointer;">Go!</button><br><div id="outputCOBFD" style="cursor:text;width:100%;min-height:1.2em;background:#fff;font-family:Consolas;"></div></div>
 	</div>`
-document.body.innerHTML += html;
-`
+document.body.innerHTML += html;})();
+/*
+
+
+
+*/
+void(0);
